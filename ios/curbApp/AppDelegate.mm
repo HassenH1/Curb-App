@@ -30,7 +30,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  [GMSServices provideAPIKey:@"AIzaSyDVZEje5WcmJyoGHIvB6Qc1przZMG2WNCA"]; // add this line using the api key obtained from Google Console
+  [GMSServices provideAPIKey:@""]; // add this line using the api key obtained from Google Console //get API key from ENV
 
   RCTAppSetupPrepareApp(application);
 
